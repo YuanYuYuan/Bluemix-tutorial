@@ -1,5 +1,2 @@
 # Bluemix-tutorial
-<p>
-hello
-</p>
-
+This is a tutorial of bluemix.
