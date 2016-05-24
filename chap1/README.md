@@ -78,7 +78,7 @@ Windows的使用者則是用管理者權限去執行命令提示字元（Windows
 
 您可以用滑鼠雙擊timestamp的元件看到裡面的inject設定，
 
-![inject](pic/intect.png)
+![inject](pic/inject.png)
 
 點擊payload您可以看到裡面有許多種資料類型可以去設定，
 在個範例中我們先試著輸出文字，所以請點選string那一欄，
