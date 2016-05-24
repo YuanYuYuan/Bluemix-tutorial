@@ -61,13 +61,13 @@ https://github.com/node-red/node-red
 Windows的使用者則是用管理者權限去執行命令提示字元（Windows下的命令列）。
 
 安裝完成後,請在Terminal上輸入"node-red"，
-您應該可以看程式會自動在http://127.0.0.1:1880/下生成一個server，
+您應該可以看程式會自動在http://127.0.0.1:1880/  下生成一個server，
 請您用瀏覽器打開此網址，成功進入Node-RED的樣子如下：
 
 ![Node-RED_demo](pic/Node-RED_demo.png)
 
 
-## Node-RED 練習
+## Node-RED 一下
 
 最後我們就來試試一些簡單的範例，並藉此了解Node-RED的操作模式與特性吧！
 請先在左邊Input的欄位拉出一個inject元件，
@@ -102,7 +102,6 @@ Windows的使用者則是用管理者權限去執行命令提示字元（Windows
 ![hello](pic/hello.png)
 
 
-## Node-RED與App Inventor
 
 
 
