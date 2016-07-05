@@ -7,4 +7,4 @@ https://docs.cloudfoundry.org/
 
 # Watson-developer-cloud/node-sdk
 
-https://github.com/watson-developer-cloud/node-sdk#document-conversion
+https://github.com/watson-developer-cloud/node-sdk
