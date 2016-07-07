@@ -111,6 +111,13 @@ df -h
 ```
 
 
+---------------------------------------------------------
+
+# Build a dialog robot on 7688
+
+## Login in your Bluemix accout (you can see [chap0](../chap0) for detail)
+
+
 
 
 
