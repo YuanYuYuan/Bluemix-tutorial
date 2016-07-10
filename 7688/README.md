@@ -115,8 +115,31 @@ df -h
 
 # Build a dialog robot on 7688
 
-## Login in your Bluemix accout (you can see [chap0](../chap0) for detail)
 
+## Login in your Bluemix accout (see [Chap0](../chap0) for detail)
+
+Remember to set your region to US South.
+
+Now let us create a Bluemix Speech to Text service.
+
+![account](pic/account.png)
+
+Click Watson and select Speech to Text service.
+
+![stt](pic/stt.png)
+
+![stt-2](pic/stt-2.png)
+
+![stt-3](pic/stt-3.png)
+
+Save the credential to my-stt-credentials.json
+
+![cred](pic/cred.png)
+
+
+## Deploy the app on 7688
+
+First, download the app folder to 7688. Using scp or SD card is recommended.
 
 
 
