@@ -141,6 +141,17 @@ Save the credential to my-stt-credentials.json
 
 First, download the app folder to 7688. Using scp or SD card is recommended.
 
+Second, plug in USB sound card on 7688 USB port then connect speaker and microphone.
+
+Finally log in to 7688, and execute main_7688.js in app folder.
+ 
+```sh
+node app/main_7688.js
+```
+
+
+
+
 
 
 
