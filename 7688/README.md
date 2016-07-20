@@ -37,6 +37,6 @@ then launch the application in app folder.
 ```sh
 git clone https://github.com/YuanYouYuan/Bluemix-tutorial.git
 cd Bluemix-tutorial/7688/app
-node app/app.js
+node app.js
 ```
 
