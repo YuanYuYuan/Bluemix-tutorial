@@ -102,3 +102,7 @@ cd Bluemix-tutorial/7688/app
 node app.js
 ```
 
+## And here is a video demo run on my notebook with Arch linux system.
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Smp5kGfYSCE/0.jpg)](https://www.youtube.com/watch?v=Smp5kGfYSCE)
+
