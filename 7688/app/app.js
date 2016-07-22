@@ -1,5 +1,5 @@
 var watson = require('watson-developer-cloud');
-var speak = require('./speak_7688');
+var speak = require('./say');
 var fs = require('fs');
 var cp = require('child_process');
 var cred = JSON.parse(fs.readFileSync('./my-stt-crendential.json'));
