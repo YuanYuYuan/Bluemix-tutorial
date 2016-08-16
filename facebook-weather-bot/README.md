@@ -95,11 +95,14 @@ Now we can use cloudfoundry-cli to deploy this app.
 cf login -a https://api.ng.bluemix.net
 cf push
 ```
+
 If you can't login by cf, make sure you have set the organization and space correctly, 
 note that the locale must be set to  US South.
 
 And if the Bluemix UI don't automatically guide you to set it when you first log in,
-try to create a new CloudFoundry on Bluemix website UI, it would invoke the guide.
+try to create a new CloudFoundry on Bluemix website UI, 
+and choose any SDK since you don't really use it, 
+this process would invoke the guide.
 
 After the broker app successfully running at cloud, 
 we should set webhook in Facebook developer webpage.
