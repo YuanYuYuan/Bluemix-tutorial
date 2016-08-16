@@ -144,14 +144,11 @@ applications:
 ```
 
 
-Push it with cf, it would create a weather-bot app on your Bluemix.
-
-And you need to bind the service you created to this app.
+Push it with cf, it would create a weather-bot app on your Bluemix, 
+and bind the service you created to this app.
 
 ```sh
 cf push
-cf bind-service yourname-weather-bot-NLC yourname-weather-bot
-cf bind-service yourname-weather-bot-WI yourname-weather-bot
 ```
 
 Now you can obeserve the status of your app, please check wether the two apps broker and weathor-bot are
