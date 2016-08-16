@@ -16,25 +16,15 @@ Please install the following tools you need.
 For linux users, it is recommended to install them by the package manager of your linux system.
 For windows usesr, you can link to following sites and install them by instruction.
 
-1. git
+1. git https://git-scm.com/download/win
 
-https://git-scm.com/download/win
+2. python https://www.python.org/ftp/python/3.6.0/python-3.6.0a3-amd64.exe
 
-2. python
+3. node https://nodejs.org/en/download/
 
-https://www.python.org/ftp/python/3.6.0/python-3.6.0a3-amd64.exe
+4. curl http://www.ichiayi.com/wiki/tech/curl_ssl_win
 
-3. node 
-
-https://nodejs.org/en/download/
-
-4. curl
-
-http://www.ichiayi.com/wiki/tech/curl_ssl_win
-
-5. cloudfoundry-cli
-
-https://github.com/cloudfoundry/cli/releases
+5. cloudfoundry-cli https://github.com/cloudfoundry/cli/releases
 
 
 Also, you need to have a bluemix account, that's important.
