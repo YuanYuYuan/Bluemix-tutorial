@@ -235,7 +235,7 @@ Log in your facebook and try to chat with weather-bot!
 * If you get 404 error, it may be caused by your weather-bot app is died, just restart it.
 
 ```
-cf restart yourtname-weather-bot
+cf restart yourname-weather-bot
 ```
 
 
