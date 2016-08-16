@@ -40,7 +40,7 @@ app.get('/getWeather', function (req,responseToRequest) {
 		nlClassifier.classify(params, function(error,results){
 			var message = "Could not identify if question is about weather conditions or temperature";
 			for (i = 0; i < results.classes.length; i++) {
-				if (results.classes[i].confidence > 0.8) {
+				if (results.classes[i].confidence > 0.8 && typeof json.observation.temp != 'undefined') {
 					if (results.classes[i].class_name === "temperature") {
 						message = "Temperature in Taipei is " + 
 							((parseFloat(json.observation.temp) - 32) / 1.8).toFixed(2) + " °C";
