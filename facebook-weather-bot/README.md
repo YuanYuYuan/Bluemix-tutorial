@@ -225,9 +225,6 @@ Log in your facebook and try to chat with weather-bot!
 cf restart yourtname-weather-bot
 ```
 
-* 
-
-
 
 
 
