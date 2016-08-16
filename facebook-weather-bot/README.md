@@ -188,7 +188,12 @@ For example credential.json.
 
 Upload the training file weather_data_train.csv to Bluemix and create a classifier.
 
-Since we use python to do this task, so we need to install some package before creating the classifier.
+Since we use python to do this task, so we need to install some packages before creating the classifier.
+Install pandoc from the following link.
+
+https://github.com/jgm/pandoc/releases/download/1.17.2/pandoc-1.17.2-windows.msi
+
+Install watson_developer_cloud API for python.
 
 ```sh
 pip install watson_developer_cloud
