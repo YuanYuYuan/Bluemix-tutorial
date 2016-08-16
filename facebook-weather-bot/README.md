@@ -24,9 +24,7 @@ For windows users, you can link to following sites and install them by instructi
 
    please remember to add python to enviroment path while installing.
 
-3. curl http://www.ichiayi.com/wiki/tech/curl_ssl_win
-
-4. cloudfoundry-cli https://github.com/cloudfoundry/cli/releases
+3. cloudfoundry-cli https://github.com/cloudfoundry/cli/releases
 
 
 Also, you need to have a bluemix account, that's important.
@@ -83,10 +81,10 @@ var port = (process.env.VCAP_APP_PORT || 3000);
 app.listen(port, host);
 ```
 
-And remember to run curl to set the access token.
+And remember to run the following python code to set the access token.
 
 ```sh
-curl -ik -X POST “pasteYourAccessTokenHere”
+python set_fb_access_token.py "PasteYourAccessTokenHere"
 ```
 
 Now we can use cloudfoundry-cli to deploy this app.
