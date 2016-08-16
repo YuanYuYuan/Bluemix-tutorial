@@ -1,0 +1,21 @@
+{
+	"name": "weather-bot",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"JSON": "^1.0.0",
+		"body-parser": "^1.15.0",
+		"node-geocoder": "^3.9.1",
+		"request": "^2.71.0",
+		"watson-developer-cloud": "^1.4.1",
+		"express": "4.13.x",
+		"cfenv": "1.0.x"
+	},
+	"repository": {},
+	"engines": {
+		"node": "4.x"
+	} 
+}

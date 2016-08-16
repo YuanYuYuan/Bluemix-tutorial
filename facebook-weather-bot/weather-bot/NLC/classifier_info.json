@@ -1,0 +1,9 @@
+{
+  "language": "en",
+  "status": "Available",
+  "status_description": "The classifier instance is now available and is ready to take classifier requests.",
+  "name": "python classfier",
+  "url": "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/74df3fx91-nlc-339",
+  "classifier_id": "74df3fx91-nlc-339",
+  "created": "2016-08-14T20:51:55.159Z"
+}

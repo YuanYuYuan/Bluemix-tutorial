@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: yourname-weather-bot
+  host: yourname-weather-bot
+  disk_quota: 1024M
+  services:
+  - yourname-weather-bot-NLC
+  - yourname-weather-bot-WI

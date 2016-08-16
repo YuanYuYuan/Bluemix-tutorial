@@ -1,5 +1,0 @@
-{
-   "code_description": "Not Acceptable", 
-   "code": 406, 
-   "error": "Unsupported mimetype.  Supported mimetypes are: ['application/json', 'text/html']"
-}
