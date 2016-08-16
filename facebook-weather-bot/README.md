@@ -103,7 +103,7 @@ __Setup the Webhooks__
 
 ![webhook](pic/webhook.png)
 
-* Callback URL: fill in your broker url (e.g. https://circle-broker.mybluemix.net/ )
+* Callback URL: fill in your broker url (e.g. https://yourname-broker.mybluemix.net/ )
 * Verification Token: fb_weather_bot_verify_token
 * Subscription Fields: messages, messaging_options, messaging_postbacks, message_reads, message_delivers
 
@@ -158,7 +158,7 @@ cf logs yourname-borker --recent
 
 ## Train the Natural Language Classifier
 
-Get the credential key of your service. 
+First we need to get the credential key of your service. 
 
 We can view this by the environment variable in weather-bot app.
 
@@ -178,6 +178,7 @@ For example credential.json.
  "username": "c918a7f7-6f5e-4f7a-8426-4c2080645cca"
 }
 ```
+
 Upload the training file weather_data_train.csv to Bluemix and create a classifier.
 
 It may take some time to training a classifer (maybe 10 minutes).
