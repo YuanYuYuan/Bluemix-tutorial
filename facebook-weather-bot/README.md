@@ -13,7 +13,9 @@ to get the weather data of the location and send it back to Facebook messager.
 ## Preparation
 
 Please install the following tools you need.
+
 For linux users, it is recommended to install them by the package manager of your linux system.
+
 For windows usesr, you can link to following sites and install them by instruction.
 
 1. git https://git-scm.com/download/win
@@ -38,8 +40,10 @@ Please open your terminal/windows command line and type the following command.
 git clone https://github.com/YuanYouYuan/Bluemix-tutorial.git
 ```
 
-and then change directory to Bluemix-tutorial/facebook-weather-bot/broker,
-edit the manifest.yml, chanage the name and host to whatever you like.
+Then change directory to Bluemix-tutorial/facebook-weather-bot/broker.
+
+Edit the manifest.yml, chanage the name and host to whatever you like.
+
 Notice that the name you choosed must be unique because the server would be work on the internet,
 
 ```yaml
