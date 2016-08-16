@@ -22,7 +22,7 @@ For windows users, you can link to following sites and install them by instructi
 
 2. python https://www.python.org/ftp/python/3.6.0/python-3.6.0a3-amd64.exe
 
-please remember to add python to enviroment path while installing.
+   please remember to add python to enviroment path while installing.
 
 3. node https://nodejs.org/en/download/
 
