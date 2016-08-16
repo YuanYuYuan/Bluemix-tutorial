@@ -16,7 +16,7 @@ Please install the following tools you need.
 
 For linux users, it is recommended to install them by the package manager of your linux system.
 
-For windows usesr, you can link to following sites and install them by instruction.
+For windows users, you can link to following sites and install them by instruction.
 
 1. git https://git-scm.com/download/win
 
@@ -40,7 +40,7 @@ Please open your terminal/windows command line and type the following command.
 git clone https://github.com/YuanYouYuan/Bluemix-tutorial.git
 ```
 
-Then change directory to Bluemix-tutorial/facebook-weather-bot/broker.
+And then change directory to Bluemix-tutorial/facebook-weather-bot/broker.
 
 Edit the manifest.yml, chanage the name and host to whatever you like.
 
@@ -66,6 +66,8 @@ https://developers.facebook.com/apps/
 ![fb_developer](pic/fb_developer.png)
 
 Click 'Add Product' -> 'Messenger'.
+
+![add_product](pic/add_product.png)
 
 __Token Generation__
 
@@ -110,13 +112,11 @@ and remember to select your fanpage to subscribe your webhook to page events.
 
 ## Weather Bot Setup
 
-Create the Bluemix services we neeed.
+Create the Bluemix necessary services.
 
 ```sh
 cf create-service natural_language_classifier standard yourname-weather-bot-NLC 
 cf create-service weatherinsights Free-v2 yourname-weather-bot-WI
-cf bind-service yourname-weather-bot-NLC yourname-weather-bot
-cf bind-service yourname-weather-bot-WI yourname-weather-bot
 ```
 
 And edit the Bluemix/facebook-weather-bot/weather-bot/manifest.yml, then fill in your name.
