@@ -22,6 +22,8 @@ For windows users, you can link to following sites and install them by instructi
 
 2. python https://www.python.org/ftp/python/3.6.0/python-3.6.0a3-amd64.exe
 
+please remember to add python to enviroment path while installing.
+
 3. node https://nodejs.org/en/download/
 
 4. curl http://www.ichiayi.com/wiki/tech/curl_ssl_win
@@ -186,7 +188,13 @@ For example credential.json.
 
 Upload the training file weather_data_train.csv to Bluemix and create a classifier.
 
-It may take some time to training a classifer (maybe 10 minutes).
+Since we use python to do this task, so we need to install some package before creating the classifier.
+
+```sh
+pip install watson_developer_cloud
+```
+
+Adn it may take some time to create a new classifer (training may take 10 minutes).
 
 ```sh
 python NLC_create.py
