@@ -214,11 +214,14 @@ Log in your facebook and try to chat with weather-bot!
 
 ## Troubleshooting
 
-If you get 404 error, it may be caused by your weather-bot app is died, just restart it.
+* If you get 404 error, it may be caused by your weather-bot app is died, just restart it.
 
 ```
 cf restart yourtname-weather-bot
 ```
+
+* If you can't login by cf, make sure you have set the organization and space correctly, 
+  note that it must be set ot  America South
 
 
 
