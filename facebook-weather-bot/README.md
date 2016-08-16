@@ -24,11 +24,9 @@ For windows users, you can link to following sites and install them by instructi
 
    please remember to add python to enviroment path while installing.
 
-3. node https://nodejs.org/en/download/
+3. curl http://www.ichiayi.com/wiki/tech/curl_ssl_win
 
-4. curl http://www.ichiayi.com/wiki/tech/curl_ssl_win
-
-5. cloudfoundry-cli https://github.com/cloudfoundry/cli/releases
+4. cloudfoundry-cli https://github.com/cloudfoundry/cli/releases
 
 
 Also, you need to have a bluemix account, that's important.
