@@ -233,7 +233,9 @@ Log in your facebook and try to chat with weather-bot!
 ```
 cf restart yourname-weather-bot
 ```
+## Reference
 
+https://developer.ibm.com/bluemix/2016/05/26/bot-for-facebook-messenger-using-bluemix/
 
 
 
