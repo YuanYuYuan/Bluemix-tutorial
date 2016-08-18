@@ -109,7 +109,7 @@ __Setup the Webhooks__
 
 ![webhook](pic/webhook.png)
 
-* Callback URL: fill in your broker url (e.g. https://yourname-broker.mybluemix.net/webhook )
+* Callback URL: fill in your broker _webhook_ url (e.g. https://yourname-broker.mybluemix.net/webhook )
 * Verification Token: fb_weather_bot_verify_token
 * Subscription Fields: messages, messaging_options, messaging_postbacks, message_reads, message_delivers
 
