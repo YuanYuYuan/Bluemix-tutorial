@@ -14,7 +14,7 @@ to get the weather data of the location and send it back to Facebook messager.
 
 Please install the following tools you need.
 
-For linux users, it is recommended to install them by the package manager of your linux system.
+For linux/mac os x users, it is recommended to install them by the package manager of your linux system.
 
 For windows users, you can link to following sites and install them by instruction.
 
