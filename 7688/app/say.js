@@ -27,7 +27,10 @@ module.exports = function speak(words) {
 	var writeStream = fs.createWriteStream('./output.mp3');
 	writeStream.on('finish', function() {
 		console.log('Done and play.');
-		exec('madplay -o wave:- output.mp3 | aplay -D plughw:1,0');
+		exec('madplay -o wave:- output.mp3 | aplay -D plughw:1,0', function(err, stdout, stderr) {
+			if (err !== null)
+				exec('mpv output.mp3');
+		});
 	});
 	request.get(options).on('error', function(err) {
 		console.log(err);

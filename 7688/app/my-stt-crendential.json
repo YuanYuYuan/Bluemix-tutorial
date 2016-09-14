@@ -1,7 +1,5 @@
 {
-    "credentials": {
-        "url": "https://stream.watsonplatform.net/speech-to-text/api",
-        "password": "uYroXlKQwvcI",
-        "username": "c19797c3-b819-4231-8096-2369b2ca82bc"
-    }
+ "password": "Pb1psUpg4sY6",
+ "url": "https://stream.watsonplatform.net/speech-to-text/api",
+ "username": "e86dfd11-1cc6-482b-a76c-760c5b4355f0"
 }

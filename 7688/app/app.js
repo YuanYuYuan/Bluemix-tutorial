@@ -4,8 +4,8 @@ var fs = require('fs');
 var cp = require('child_process');
 var cred = JSON.parse(fs.readFileSync('./my-stt-crendential.json'));
 var stt = watson.speech_to_text({
-	username: cred.credentials.username,
-	password: cred.credentials.password,
+	username: cred.username,
+	password: cred.password,
 	version: 'v1'
 });
 
