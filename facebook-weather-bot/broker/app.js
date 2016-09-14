@@ -34,7 +34,7 @@ app.post('/webhook/', function (req, res) {
             text = event.message.text;
 			console.log("Succeed!!!!!!!");
 // Calling the Weather App. Change the address below to the url of your Weather app. Response is sent back to the user via the sendMessage function //
-            request("https://circle-weather-bot.mybluemix.net/getWeather?text=" + text, function (error, response, body) {
+            request("https://yourname-weather-bot.mybluemix.net/getWeather?text=" + text, function (error, response, body) {
                 sendMessage(sender, body);
             });
         }

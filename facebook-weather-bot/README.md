@@ -38,7 +38,7 @@ Please open your terminal/windows command line and type the following command.
 git clone https://github.com/YuanYouYuan/Bluemix-tutorial.git
 ```
 
-And then change directory to Bluemix-tutorial/facebook-weather-bot/broker.
+And then **change directory to Bluemix-tutorial/facebook-weather-bot/broker.**
 
 Edit the manifest.yml, chanage the name and host to whatever you like.
 
@@ -79,6 +79,30 @@ var token = "pasteYourAccessTokenHere";
 var host = (process.env.VCAP_APP_HOST || 'localhost');
 var port = (process.env.VCAP_APP_PORT || 3000);
 app.listen(port, host);
+```
+And edit the request url of the weather bot, just replace the 'yourname' to what you want, 
+but notice that to it must be the same with the name set in following weather bot setting.
+
+For example, set "https://circle-weather-bot.mybluemix.net/getWeather?text......
+
+```javascript
+
+app.post('/webhook/', function (req, res) {
+    messaging_events = req.body.entry[0].messaging;
+    for (i = 0; i < messaging_events.length; i++) {
+        event = req.body.entry[0].messaging[i];
+        sender = event.sender.id;
+        if (event.message && event.message.text) {
+            text = event.message.text;
+			console.log("Succeed!!!!!!!");
+// Calling the Weather App. Change the address below to the url of your Weather app. Response is sent back to the user via the sendMessage function //
+            request("https://yourname-weather-bot.mybluemix.net/getWeather?text=" + text, function (error, response, body) {
+                sendMessage(sender, body);
+            });
+        }
+    }
+    res.sendStatus(200);
+});
 ```
 
 And remember to run the following python code to set the access token.
@@ -169,7 +193,7 @@ We can view this by the environment variable in weather-bot app.
 cf env yourname-weather-bot
 ```
 
-Copy the credential of natural language service and save it as new file credential.json in 
+Copy the credential of **natural language service** and save it as new file **credential.json** in 
 Bluemix-tutorial/facebook-weather-bot/weather-bot/NLC.
 
 For example credential.json.
