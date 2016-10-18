@@ -74,6 +74,8 @@ Edit the app.js and replace the var token.
 
 ![token](pic/token.png)
 
+_Bluemix-tutorial/facebook-weather-bot/broker/app.js_
+
 ```javascript
 var token = "pasteYourAccessTokenHere";
 var host = (process.env.VCAP_APP_HOST || 'localhost');
@@ -84,6 +86,8 @@ And edit the request url of the weather bot, just replace the 'yourname' to what
 but notice that to it must be the same with the name set in following weather bot setting.
 
 For example, set "https://circle-weather-bot.mybluemix.net/getWeather?text......
+
+_Bluemix-tutorial/facebook-weather-bot/broker/app.js_
 
 ```javascript
 
@@ -112,6 +116,7 @@ python set_fb_access_token.py "PasteYourAccessTokenHere"
 ```
 
 Now we can use cloudfoundry-cli to deploy this app.
+Note that you need to execute the 'cf push' command in the broker directory.
 
 ```sh
 cf login -a https://api.ng.bluemix.net
@@ -134,7 +139,7 @@ __Setup the Webhooks__
 ![webhook](pic/webhook.png)
 
 * Callback URL: fill in your broker _webhook_ url (e.g. https://yourname-broker.mybluemix.net/webhook )
-* Verification Token: fb_weather_bot_verify_token
+* Verification Token: fb_weather_bot_verify_token (this token is set in broker/app.js)
 * Subscription Fields: messages, messaging_options, messaging_postbacks, message_reads, message_delivers
 
 and remember to select your fanpage to subscribe your webhook to page events.
@@ -219,7 +224,7 @@ Install watson_developer_cloud API for python.
 pip install watson_developer_cloud
 ```
 
-Adn it may take some time to create a new classifer (training may take 10 minutes).
+And it may take some time to create a new classifer (training may take 10 minutes).
 
 ```sh
 python NLC_create.py
@@ -237,6 +242,7 @@ python NLC_test.py
 ```
 
 Now push again to update the new app to Bluemix.
+Change directory back to Bluemix-tutorial/facebook-weather-bot/weather-bot and type in the following command.
 
 ```sh
 cf push
